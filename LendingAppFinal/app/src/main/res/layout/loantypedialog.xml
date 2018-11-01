@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+   <RadioGroup
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:paddingLeft="100dp">
+       <RadioButton
+           android:id="@+id/quickLoan"
+           android:text="Quick Loan"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:onClick="onRadioClick"/>
+       <RadioButton
+           android:id="@+id/normalLoan"
+           android:text="Normal Loan"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:onClick="onRadioClick"/>
+
+   </RadioGroup>
+    <Button
+        android:id="@+id/confirmType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#007f00"
+        android:textColor="#fff"
+        android:text="Confirm"/>
+
+</LinearLayout>

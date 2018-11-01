@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+   <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:gravity="center">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:textColor="#003300"
+        android:text="Admin"
+        android:textStyle="italic"/>
+    <Button
+        android:id="@+id/addStaff"
+        android:text="Add Staff"
+        android:background="#007f00"
+        android:textColor="#fff"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/displayPerson"
+        android:text="Display Person"
+        android:background="#007f00"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/displayLoan"
+        android:text="Display Loan"
+        android:layout_marginTop="20dp"
+        android:background="#007f00"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/displayPayment"
+        android:text="Display Payment"
+        android:layout_marginTop="20dp"
+        android:background="#007f00"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/displayReport"
+        android:text="Display Report"
+        android:layout_marginTop="20dp"
+        android:background="#007f00"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/displayCDReport"
+        android:text="Display Passed Due Loans"
+        android:layout_marginTop="20dp"
+        android:background="#007f00"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textStyle="italic"
+        android:gravity="right"/>
+   </LinearLayout>
+</ScrollView>

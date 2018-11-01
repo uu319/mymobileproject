@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="40dp"
+    android:padding="40dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Lending"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="50dp"
+        android:padding="25dp"
+        android:textColor="#003300"/>
+    <Button
+        android:id="@+id/adminlogin"
+        android:background="#007f00"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login as admin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For demo: username= '101' and password='admin'"/>
+    <Button
+        android:id="@+id/stafflogin"
+        android:background="#007f00"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login as staff"/>
+    <Button
+        android:id="@+id/customerlogin"
+        android:background="#007f00"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login as customer"/>
+
+</LinearLayout>

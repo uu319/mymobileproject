@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="#003300"
+        android:gravity="center"
+        android:text="Staff"
+        android:textStyle="italic" />
+    <Button
+        android:layout_marginTop="30dp"
+        android:background="#007f00"
+        android:textColor="#fff"
+        android:id="@+id/addPerson"
+        android:text="Add Customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/addLoan"
+        android:layout_marginTop="10dp"
+        android:text="Add Loan"
+        android:background="#007f00"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/displayPerson"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:background="#007f00"
+        android:text="Display Person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/displayLoan"
+        android:layout_marginTop="10dp"
+        android:text="Display Loan"
+        android:textColor="#fff"
+        android:background="#007f00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/addPayment"
+        android:layout_marginTop="10dp"
+        android:text="Add Payment"
+        android:textColor="#fff"
+        android:background="#007f00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/displayPayment"
+        android:layout_marginTop="10dp"
+        android:text="Display Payment"
+        android:textColor="#fff"
+        android:background="#007f00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textStyle="italic"
+        android:gravity="right"/>
+    <TextView
+        android:id="@+id/test"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textStyle="italic"
+        android:gravity="right"/>
+
+
+
+</LinearLayout>

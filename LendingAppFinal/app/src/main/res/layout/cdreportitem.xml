@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+        <TextView
+            android:id="@+id/textview1"
+            android:background="@android:color/holo_green_light"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textStyle="bold"
+            android:layout_marginRight="4dp"
+            android:text="Report ID:"/>
+        <TextView
+            android:id="@+id/cd_reportID"
+            android:background="@android:color/holo_blue_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textview1"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textview2"
+            android:background="@android:color/holo_green_light"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textStyle="bold"
+            android:layout_marginRight="4dp"
+            android:text="Customer Name:"/>
+        <TextView
+            android:id="@+id/cd_customerName"
+            android:background="@android:color/holo_blue_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textview2" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textview3"
+            android:background="@android:color/holo_green_light"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textStyle="bold"
+            android:layout_marginRight="4dp"
+            android:text="Loan Date:"/>
+        <TextView
+            android:id="@+id/cd_loanDate"
+            android:background="@android:color/holo_blue_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textview3" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textview4"
+            android:background="@android:color/holo_green_light"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textStyle="bold"
+            android:layout_marginRight="4dp"
+            android:text="Loan Due:"/>
+        <TextView
+            android:id="@+id/cd_loanDue"
+            android:background="@android:color/holo_blue_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textview4"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textview5"
+            android:layout_marginRight="4dp"
+            android:background="@android:color/holo_green_light"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textStyle="bold"
+            android:text="Loan Balance:"/>
+        <TextView
+            android:id="@+id/cd_loanBalance"
+            android:background="@android:color/holo_blue_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textview5"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textview6"
+            android:layout_marginRight="4dp"
+            android:background="@android:color/holo_green_light"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textStyle="bold"
+            android:text="Status:"/>
+        <TextView
+            android:id="@+id/cd_status"
+            android:background="@android:color/holo_blue_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textview6"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
